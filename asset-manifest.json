@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MarkOnsy/admin/static/css/main.d5c605e9.css",
+    "main.js": "/MarkOnsy/admin/static/js/main.068bd57a.js",
+    "index.html": "/MarkOnsy/admin/index.html",
+    "main.d5c605e9.css.map": "/MarkOnsy/admin/static/css/main.d5c605e9.css.map",
+    "main.068bd57a.js.map": "/MarkOnsy/admin/static/js/main.068bd57a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5c605e9.css",
+    "static/js/main.068bd57a.js"
+  ]
+}
