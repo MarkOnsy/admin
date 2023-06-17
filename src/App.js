@@ -28,6 +28,7 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes>
+              <Route path="/" element={<Dashboard />} />
               <Route path="/admin" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
