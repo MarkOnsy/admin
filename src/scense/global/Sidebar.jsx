@@ -2,7 +2,8 @@ import { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
-import 'react-pro-sidebar/dist/css/styles.css';
+import "react-pro-sidebar/dist/css/styles.css";
+import Logo from "../../assets/user2.png";
 
 import { tokens } from "../../Theme";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
@@ -83,7 +84,7 @@ const Sidebar = () => {
                 <Typography variant="h3" color={colors.grey[100]}>
                   Admins
                 </Typography>
-                
+
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
                 </IconButton>
@@ -98,7 +99,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/user2.png`}
+                  src={Logo}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>

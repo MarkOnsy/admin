@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { ColorModeContext, useMode } from "./Theme";
 import { Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from "@mui/material";
@@ -14,7 +14,7 @@ import Line from "./scense/line";
 import Pie from "./scense/pie";
 import FAQ from "./scense/faq";
 import Calendar from "./scense/calendar";
-import Geography from './scense/geography/index';
+import Geography from "./scense/geography/index";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -28,7 +28,7 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/admin" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
